@@ -9,6 +9,9 @@ font-size: 20px;
         font-family: 'Bebas Neue';
     }
 
+    .article-top{
+        border-top: solid rgb(92, 89, 89) 1px;
+    }
     .image-article-bottom{
         margin-top:10px;
         width:100%;
@@ -42,5 +45,14 @@ font-size: 20px;
     .art1 {
       width: 300px;
       height: 200px;
+    }
+
+    .square{
+        width: 200px;
+        height: 200px; 
+    }
+
+    .image-big{
+        width: 100%;
     }
 }
