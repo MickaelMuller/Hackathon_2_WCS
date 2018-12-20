@@ -23,7 +23,6 @@ class Home extends Component {
         <Video />
         <MeteoWidget />
         <Articles />
-        <Button color="danger" onClick={this.toggle}>Click</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader  toggle={this.toggle}>Vous ne souhaitez pas en arriver là ?</ModalHeader>
           <ModalBody className="text">
