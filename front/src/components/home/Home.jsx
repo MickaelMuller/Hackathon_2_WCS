@@ -3,6 +3,8 @@ import './Home.scss';
 import Navbar from './Navbar';
 import Video from './Video';
 import MeteoWidget from './MeteoWidget';
+import Articles from '../Articles';
+import Footer from '../Footer';
 
 
 class Home extends Component {
@@ -19,6 +21,8 @@ class Home extends Component {
         <Navbar/>
         <Video />
         <MeteoWidget />
+        <Articles />
+        <Footer />
       </div>
     );
   }
