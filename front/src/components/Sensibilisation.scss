@@ -1,13 +1,37 @@
 .Sensibilisation {
-  text-align: center;
-  margin-top: 1%;
-  ;
-}
+  background-image: url("/medias/white_wall_hash.png");
+  .header {
+    text-align: center;
+    margin-top: 1%;
+  }
 
-/* Google Fonts */
+  // @font-face {
+  //   font-family: 'typewritter';
+  //   src: url(typewriter.ttf) format('ttf');
+  // }
+
+  .title-h2 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #005995;
+    border-radius: 3px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding:1%;
+    // font-family: typewriter;
+  }
+  
+  .title-h22 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #005995;
+    border-radius: 3px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding:1%;
+  }
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-
-/* Global */
 
 .margin {
   margin-bottom: 3%;
@@ -36,7 +60,6 @@
   from {
     width: 0;
   }
-
   to {
     width: 40em;
   }
@@ -51,7 +74,6 @@
   from {
     width: 0;
   }
-
   to {
     width: 40em;
   }
@@ -66,7 +88,6 @@
   from {
     width: 0;
   }
-
   to {
     width: 40em;
   }
@@ -76,8 +97,12 @@
   from {
     border-right-color: rgba(255, 255, 255, .75);
   }
-
   to {
     border-right-color: transparent;
   }
+}
+
+.textsize{
+  font-size: 100%;
+}
 }
