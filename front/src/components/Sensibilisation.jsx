@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Sensibilisation.scss';
 import Card_sensibilisation from './Card_sensibilisation';
+import FormTips from './FormTips';
 
 
 
@@ -16,6 +17,8 @@ class Sensibilistation extends Component {
           <p class="line-1 anim3-typewriter3">Matthieu Auzanneau (Directeur / The Shift Project)</p>
         </div>
         <Card_sensibilisation />
+        <br/>
+        <FormTips />
       </div>
     );
   }

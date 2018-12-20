@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Video from './Video'
 import MeteoWidget from './MeteoWidget'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import Footer from '../Footer';
 
 
 
@@ -40,6 +41,7 @@ class Home extends Component {
             <Button color="success" onClick={this.toggle}>Les solutions ici =></Button>
           </ModalFooter>
         </Modal>
+        <Footer />
       </div>
     );
   }
