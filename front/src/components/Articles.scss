@@ -18,7 +18,7 @@ font-size: 20px;
     }
 
     .article-body{
-    text-align: justify;
+    text-align: left;
     }
 
     .legend{
@@ -33,5 +33,10 @@ font-size: 20px;
 
     .row-border{
         border-bottom: solid rgb(92, 89, 89) 1px;
+    }
+
+    .art1 {
+      width: 300px;
+      height: 200px;
     }
 }
