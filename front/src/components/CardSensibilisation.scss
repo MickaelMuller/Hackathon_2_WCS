@@ -1,0 +1,25 @@
+.CardSensibilisation{
+  .card-title{
+    opacity: 0;
+  }
+
+  .card-text{
+    opacity: 0;
+  }
+
+  .card-sensib:hover {
+      .card-title{
+        opacity: 1;
+      }
+      .card-text{
+        opacity: 1;
+      }
+      .card-image{
+        filter: opacity(0%);
+        -webkit-filter: opacity(0%);
+      }
+      background: #005995;
+      opacity: 0.95
+    }
+}
+
