@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/home/Home';
+import Sensibilisation from './components/Sensibilisation';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/sensibilisation" component={Sensibilisation} />
         </Switch>
       </div>
     );

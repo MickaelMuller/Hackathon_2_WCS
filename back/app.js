@@ -4,6 +4,7 @@ import Debug from 'debug';
 import express from 'express';
 import logger from 'morgan';
 import path from 'path';
+import cors from 'cors';
 // import favicon from 'serve-favicon';
 
 import index from './routes/index';
@@ -20,10 +21,11 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(cookieParser());
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
+app.use('/api', index);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
