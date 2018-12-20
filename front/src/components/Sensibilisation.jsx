@@ -4,7 +4,8 @@ import FormTips from './FormTips';
 import CardSensibilisation from './CardSensibilisation';
 import cardSensibPerso from './cardSensibPerso.json';
 import cardSensibPro from './cardSensibPro.json';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class Sensibilistation extends Component {
 
@@ -40,6 +41,7 @@ class Sensibilistation extends Component {
           </div>
           <br/>
           <FormTips />
+          <Button color="success" onClick={this.toggle}><Link to='./happiness' style={{color: 'white'}}>les effets</Link></Button>
         </Container>
       </div>
     );
