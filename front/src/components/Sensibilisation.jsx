@@ -5,7 +5,6 @@ import cardSensibPerso from './cardSensibPerso.json';
 import cardSensibPro from './cardSensibPro.json';
 import { Container, Row, Col } from 'reactstrap';
 
-
 class Sensibilistation extends Component {
 
   render() {

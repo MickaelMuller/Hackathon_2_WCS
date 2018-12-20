@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
-
+import './CardSensibilisation.scss';
 class CardSensibilisation extends Component {
   constructor(props) {
     super(props);
@@ -8,15 +8,12 @@ class CardSensibilisation extends Component {
   }
   render() {
     return (
-      <div>
-          <Card inverse>
-            <CardImg width="110%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx1txhKdIR9zcqgMBs4Py9hqZXsBY0kHmNWHZi5wdguKVmfIYSMA" alt="Card image cap" />
+      <div className="CardSensibilisation">
+          <Card inverse className="card-sensib">
+            <CardImg width="110%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx1txhKdIR9zcqgMBs4Py9hqZXsBY0kHmNWHZi5wdguKVmfIYSMA" alt="Card image cap" className="card-image"/>
             <CardImgOverlay>
-              <CardTitle>{this.props.name}</CardTitle>
-              <CardText>{this.props.description}</CardText>
-              <CardText>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </CardText>
+              <CardTitle className="card-title">{this.props.name}</CardTitle>
+              <CardText className="card-text">{this.props.description}</CardText>
             </CardImgOverlay>
           </Card>
       </div>
