@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import './Home.scss'
-import Navbar from './Navbar'
-import Video from './Video'
-import MeteoWidget from './MeteoWidget'
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import './Home.scss';
+import Navbar from './Navbar';
+import Video from './Video';
+import MeteoWidget from './MeteoWidget';
+import Articles from '../Articles';
 import Footer from '../Footer';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
+
 
 class Home extends Component {
   constructor(props) {
@@ -19,6 +22,7 @@ class Home extends Component {
         <Navbar/>
         <Video />
         <MeteoWidget />
+        <Articles />
         <Button color="danger" onClick={this.toggle}>Click</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader  toggle={this.toggle}>Vous ne souhaitez pas en arriver là ?</ModalHeader>
