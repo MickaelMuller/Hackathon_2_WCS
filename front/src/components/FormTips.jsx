@@ -31,14 +31,14 @@ class FormTips extends Component {
           tips.map(item => (
             <Breadcrumb>
               <Moment locale="fr" format="DD/MM/YYYY">{item.date}</Moment>
-              <BreadcrumbItem active><br/>{item.name} : <cite>« {item.message} »
-</cite></BreadcrumbItem>
+              <BreadcrumbItem active><br />{item.name} : <cite>« {item.message} »
+            </cite></BreadcrumbItem>
             </Breadcrumb>
           ))
         }
-          <br />
-          <hr />
-          <br />
+        <br />
+        <hr />
+        <br />
         <FormSubmit />
       </Container>
     );
