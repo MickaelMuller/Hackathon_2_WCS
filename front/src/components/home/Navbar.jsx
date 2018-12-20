@@ -23,7 +23,7 @@ class Navbar extends Component {
   render() {
     return (
       <Container fluid className='Navbar'>
-        <div className="nyt-navbar" onClick={this.toggle} />
+        <div fluid className="nyt-navbar" onClick={this.toggle} />
         <Row className='red'>
           <h3>FLASH INFO</h3>
         </Row>
