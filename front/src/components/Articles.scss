@@ -1,8 +1,12 @@
 .Articles.container{
 padding-left:30;
+font-size: 18px;
+font-family: 'Open Sans Condensed';
+font-size: 20px;
 
     h3{
         padding: 10px;
+        font-family: 'Bebas Neue';
     }
 
     .image-article-bottom{
@@ -14,7 +18,7 @@ padding-left:30;
     }
 
     .article-body{
-    text-align: justify;
+    text-align: left;
     }
 
     .legend{
@@ -33,5 +37,9 @@ padding-left:30;
 
     .image-article-bottom {
       height: 60%;
+      
+    .art1 {
+      width: 300px;
+      height: 200px;
     }
 }
