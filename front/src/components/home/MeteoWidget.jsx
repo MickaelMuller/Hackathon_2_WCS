@@ -14,29 +14,9 @@ class MeteoWidget extends Component {
           <Col lg='2'>
             <img className='image-meteo' src='/images/meteo.png' alt='carte temperatures et meteo' />
           </Col>
-          {/*  <div className="widget">
-        <div className="widget__left-col">
-          <div className="widget__temperature">57</div>
-          <div className="widget__city">Bordeaux <br/>(OURAGAN)</div>
-        </div>
-        <div className="widget__right-col">
-          <div className="widget__weather-icon">
-            <i className="fa fa-bolt"></i>
-          </div>
-          <div className="widget__attrs">
-            <div className="widget__attr">
-              <div className="widget__attr-value">9765</div>
-              <div className="widget__attr-unit">mm</div>
-            </div>
-            <div className="widget__attr">
-              <div className="widget__attr-value">666</div>
-              <div className="widget__attr-unit">km/h</div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-          <Col className="defileparent" lg='10'>
-            <p  className="defile">
+          <Col className="defileParent">
+            <p  className="defile" data-text="ALERTE METEO [LIVE] :
+              Nos journalistes sur le terrain nous informent qu'une énorme tempête détruit tous les Etats-Unis !">
               ALERTE METEO [LIVE] :
               Nos journalistes sur le terrain nous informent qu'une énorme tempête détruit tous les Etats-Unis !
             </p>
