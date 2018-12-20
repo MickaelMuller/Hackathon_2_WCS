@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/home/Home';
+import Sensibilisation from './components/Sensibilisation';
+import FormTips from './components/FormTips'
 import Sensibilisation from './components/Sensibilisation.jsx'
+
 class App extends Component {
   render() {
     return (
@@ -11,7 +13,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/sensibilisation" component={Sensibilisation} />
         </Switch>
-        <Footer />      </div>
+      </div>
     );
   }
 }

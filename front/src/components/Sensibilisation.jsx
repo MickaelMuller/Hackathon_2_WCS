@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Sensibilisation.scss';
+import FormTips from './FormTips';
 import CardSensibilisation from './CardSensibilisation';
 import cardSensibPerso from './cardSensibPerso.json';
 import cardSensibPro from './cardSensibPro.json';
 import { Container, Row, Col } from 'reactstrap';
-
 
 class Sensibilistation extends Component {
 
@@ -38,6 +38,8 @@ class Sensibilistation extends Component {
             ))}
           </Row>
           </div>
+          <br/>
+          <FormTips />
         </Container>
       </div>
     );
