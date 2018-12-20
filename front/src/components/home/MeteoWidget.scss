@@ -1,15 +1,24 @@
 .MeteoWidget {
   $widget-width: 280px;
   $widget-height: 150px;
+  background-color: orange; 
+  padding-left: 0!important;
+  display: flex;
+   
+  .text {
+    text-align: center;
+  }
 
   .widget {
     width: $widget-width;
     height: $widget-height;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -$widget-height/2;
-    margin-left: -$widget-width/2;
+    display: block;
+    align-self: center;   
+  }
+
+  .white {
+    color: white;
+    text-align: center;
   }
 
   .widget__left-col {
@@ -20,6 +29,7 @@
     text-align: center;
     box-sizing: border-box;
     float: left;
+    
   }
 
   .widget__temperature {
@@ -28,7 +38,6 @@
   
     &:after {
       content: '°';
-      position: absolute;
     }
   }
 
@@ -66,7 +75,6 @@
     width: 60px;
     box-sizing: border-box;
     padding: 10px 0 0 30px;
-    position: relative;
     float: left;
     text-transform: uppercase;  
     font-size: 12px;  
@@ -74,7 +82,6 @@
 
   .widget__attr-icon {
     font-size: 24px;
-    position: absolute;
     top: 10px;
     left: 10px;
   }
@@ -88,5 +95,6 @@
     font-weight: bold;
     font-size: 11px;
   }
+
 }
 

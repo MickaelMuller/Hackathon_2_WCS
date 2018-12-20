@@ -9,7 +9,7 @@ class MeteoWidget extends Component {
   }
   render() {
     return (
-    <Container className="MeteoWidget">
+    <Container fluid className="MeteoWidget">
       <div className="widget">
         <div className="widget__left-col">
           <div className="widget__temperature">57</div>
@@ -30,6 +30,9 @@ class MeteoWidget extends Component {
             </div>
           </div>
         </div>
+      </div>
+      <div className="text">ALERTE METEO [LIVE] :
+        Nos journalistes sur le terrain nous informent qu'une énorme tempête détruit le pays entier !
       </div>
     </Container>
     );
