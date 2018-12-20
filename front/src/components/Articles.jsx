@@ -52,16 +52,12 @@ const Articles = () => {
             </Row>
             <Row>
                 <Col>
-                <img src='/images/continent.jpg' alt='catastrophe' className='image-article-bottom'/>
+                <img src='/medias/chat4(1).jpg' alt='catastrophe' className='image-article-bottom'/>
                 <article className='article-body'>
                 
-                            <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
-                                <h3>Titre</h3>
-                                <p>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu. Cupidatat dolor magna eiusmod cillum Lorem excepteur culpa proident. Elit excepteur amet minim nisi officia irure ex non do ullamco. Minim reprehenderit dolore anim nisi occaecat ad id esse duis aliqua.
-
-        Anim quis deserunt do aute Lorem. Irure sint enim voluptate ex incididunt fugiat velit cillum dolor est magna sunt. Cupidatat id elit occaecat occaecat veniam id officia et ad dolore officia. Elit eiusmod veniam anim ipsum ad proident culpa id aute magna amet eiusmod. Laborum excepteur est enim deserunt. Incididunt id adipisicing cillum dolor est sunt nisi cillum dolor culpa. Magna do ipsum est irure tempor nulla occaecat excepteur.
-
-Proident nostrud cillum magna aliqua reprehenderit anim id commodo ullamco nulla. Proident aute anim magna Lorem. Occaecat voluptate quis deserunt velit irure cupidatat in occaecat cupidatat.</p>
+                            <p className='legend'>Pauvre chatte en voie de disparition</p>
+                                <h3>Espèce en voie de disparition : LE CHAT </h3>
+                                <p>Du jamais vu sur cette planète, le chat est actuellement en voie de disparition due à la surconsommation de vos vidéos YouTube. Dites bonjour à la nouvelle Youtubeuse Lil Miquela, et dites au revoir à vos matous… (lire la suite)</p>
                             </article>
                 </Col>
             </Row>
