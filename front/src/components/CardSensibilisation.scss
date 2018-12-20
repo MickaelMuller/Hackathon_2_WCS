@@ -10,16 +10,18 @@
   .card-sensib:hover {
       .card-title{
         opacity: 1;
+        transition: all 0.5s ease-in-out;
       }
       .card-text{
         opacity: 1;
+        transition: all 0.5s ease-in-out;
       }
       .card-image{
         filter: opacity(0%);
         -webkit-filter: opacity(0%);
       }
       background: #005995;
-      opacity: 0.95
+      opacity: 0.95;
     }
 }
 

@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "title": "Raspberry",
-    "description": "Coucou Perso1",
-    "image":""
+    "title": "Wifi et non 4G",
+    "description": "Prioriser l'utilisation du wifi plutôt que de la 4G qui est un réseau plus énergivore",
+    "image":"https://images.pexels.com/photos/423367/pexels-photo-423367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     "id": "2",
-    "title": "José",
-    "description": "Coucou Perso2",
-    "image":""
+    "title": "Adapter les usages",
+    "description": "Identifier et choisir les usages essentiels (vidéo omniprésente, données inutiles produites et stockées",
+    "image":"https://images.pexels.com/photos/915051/pexels-photo-915051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     "id": "3",
-    "title": "Clément",
-    "description": "Coucou Perso3",
-    "image":""
+    "title": "Amélioration de la durée de vie",
+    "description": "Rendre les équipements modulaires (choix des options, possibilité de remplacement et pièces disponibles",
+    "image":"https://images.pexels.com/photos/825262/pexels-photo-825262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   }
 ]
