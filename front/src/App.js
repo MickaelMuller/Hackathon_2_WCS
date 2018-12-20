@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
-import MeteoWidget from './components/MeteoWidget';
-import Video from './components/Video';
 import Footer from './components/Footer';
-
+import { Route, Switch } from 'react-router-dom';
+import Home from './components/home/Home';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <Video />
-        <MeteoWidget />
-        <Footer />
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+       <Footer />
       </div>
     );
   }
