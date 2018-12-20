@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 @font-face {
   font-family: 'Open Sans Condensed';
   src: url('/fonts/OpenSansCondensed-Light.woff2') format('woff2'),
@@ -21,3 +22,10 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Bold.woff2') format('woff2'),
+      url('/fonts/Nunito-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
