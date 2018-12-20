@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "title": "Wifi et non 4G",
-    "description": "Prioriser l'utilisation du wifi plutôt que de la 4G qui est un réseau plus énergivore",
+    "title": "Privilégier la Wifi à la 4G",
+    "description": "  Saviez-vous que la 4G consomme 23 fois plus d’énergie que la Wifi ? Alors, priorisez l'utilisation du wifi plutôt que de la 4G qui est un réseau plus énergivore.",
     "image":"https://images.pexels.com/photos/423367/pexels-photo-423367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     "id": "2",
-    "title": "Adapter les usages",
-    "description": "Identifier et choisir les usages essentiels (vidéo omniprésente, données inutiles produites et stockées",
+    "title": "Changer nos habitudes",
+    "description": "Saviez-vous que 1h de vidéo sur Smartphone equivaut à un frigidaire allumé pendant 1 an. Pensez à identifier et choisir vos usages essentiels (limiter la production inutile de données).",
     "image":"https://images.pexels.com/photos/915051/pexels-photo-915051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     "id": "3",
-    "title": "Amélioration de la durée de vie",
-    "description": "Rendre les équipements modulaires (choix des options, possibilité de remplacement et pièces disponibles",
+    "title": "Optimiser nos équipements",
+    "description": "Saviez-vous qu’un ordinateur portable n’était prévu que pour fonctionner deux à trois heures par jour? Au-delà il chauffe et s’abîme vite! Adapter sa configuration a son utilisation est aussi important.",
     "image":"https://images.pexels.com/photos/825262/pexels-photo-825262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   }
 ]
