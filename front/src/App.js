@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import MeteoWidget from './components/MeteoWidget';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        coucou
+        <MeteoWidget />
       </div>
     );
   }
