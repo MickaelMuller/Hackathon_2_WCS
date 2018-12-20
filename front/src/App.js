@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/home/Home';
 
@@ -9,6 +10,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
+       <Footer />
       </div>
     );
   }
