@@ -1,100 +1,76 @@
 .MeteoWidget {
-  $widget-width: 280px;
-  $widget-height: 150px;
   background-color: orange; 
   padding-left: 0!important;
-  display: flex;
-   
-  .text {
-    text-align: center;
+
+  .image-meteo{
+    max-height: 6rem;
+    padding: 10px;
   }
 
-  .widget {
-    width: $widget-width;
-    height: $widget-height;
+  .defileParent {
     display: block;
-    align-self: center;   
+    margin: 3em auto;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 700px;
   }
 
-  .white {
-    color: white;
-    text-align: center;
+  .defile {
+    display:block;
+    -webkit-animation:linear marqueelike 20s infinite ;
+    -moz-animation:linear marqueelike 20s infinite ;
+    -o-animation:linear marqueelike 20s infinite ;
+    -ms-animation:linear marqueelike 20s infinite ;
+    animation:linear marqueelike 20s infinite ;
+    margin-left:-100%;
+    padding:0 5px;
+    text-align:left;
+    height:25px;
+    font-weight: bolder;
   }
-
-  .widget__left-col {
-    background: black;
-    color: white;
-    width: 160px;
-    height: $widget-height;
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-    
-  }
-
-  .widget__temperature {
-    font-size: 64px;
-    font-weight: 100;
   
-    &:after {
-      content: '°';
-    }
+  .defile:after {
+    content:attr(data-text);
+    position:absolute;
+    white-space:nowrap;
+    padding-left:10px;
   }
+  
+  @-webkit-keyframes marqueelike {
+    0%, 10% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-moz-keyframes marqueelike {
+    0%, 10% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-o-keyframes marqueelike {
+    0%, 10% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-ms-keyframes marqueelike {
+    0%, 10% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @keyframes marqueelike {
+    0%, 10% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @media only screen and (max-width: 860px) {
+    .defileParent {
+      display: block;
+      margin: 3em auto;
+      overflow: hidden;
+      position: relative;
+      table-layout: fixed;
+      width: 700%;
+   }
 
-  .widget__city {
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  .widget__right-col {
-    background: #fff;  
-    width: 120px;
-    height: $widget-height;
-    float: left;
-  }
-
-  .widget__weather-icon {  
-    font-size: 60px;
-    line-height: 1;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 23px 0 0;
-    height: 105px;
-    background-color: rgb(255, 238, 1);
-  }
-
-  .widget__attrs {
-    background: rgb(68, 0, 255);
-    height: 45px;
-    color: white;
-    font-size: 14px;
-  }
-
-  .widget__attr {
-    width: 60px;
-    box-sizing: border-box;
-    padding: 10px 0 0 30px;
-    float: left;
-    text-transform: uppercase;  
-    font-size: 12px;  
-  }
-
-  .widget__attr-icon {
-    font-size: 24px;
-    top: 10px;
-    left: 10px;
-  }
-
-  .widget__attr-value {
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  .widget__attr-unit {
-    font-weight: bold;
-    font-size: 11px;
   }
 
 }
+
+
+
 

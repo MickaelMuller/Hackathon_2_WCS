@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import "./MeteoWidget.scss";
 
 class MeteoWidget extends Component {
@@ -9,8 +9,12 @@ class MeteoWidget extends Component {
   }
   render() {
     return (
-    <Container fluid className="MeteoWidget">
-      <div className="widget">
+      <Container fluid className="MeteoWidget">
+        <Row>
+          <Col lg='2'>
+            <img className='image-meteo' src='/images/meteo.png' alt='carte temperatures et meteo' />
+          </Col>
+          {/*  <div className="widget">
         <div className="widget__left-col">
           <div className="widget__temperature">57</div>
           <div className="widget__city">Bordeaux <br/>(OURAGAN)</div>
@@ -30,11 +34,15 @@ class MeteoWidget extends Component {
             </div>
           </div>
         </div>
-      </div>
-      <div className="text">ALERTE METEO [LIVE] :
-        Nos journalistes sur le terrain nous informent qu'une énorme tempête détruit le pays entier !
-      </div>
-    </Container>
+      </div> */}
+          <Col className="defileparent" lg='10'>
+            <p  className="defile">
+              ALERTE METEO [LIVE] :
+              Nos journalistes sur le terrain nous informent qu'une énorme tempête détruit tous les Etats-Unis !
+            </p>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
