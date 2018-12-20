@@ -1,5 +1,31 @@
 .Sensibilisation {
   background-image: url("/medias/white_wall_hash.png");
+  position: relative;
+  .joel {
+    position: absolute;
+    left:90%;
+    bottom: 51%;
+  }
+
+  .joel-left {
+    position: absolute;
+    left: 6%;
+    bottom: 51%;
+
+  }
+  .text-left {
+    position: absolute;
+    bottom: 55%;
+    left: 4%;
+  }
+
+  .text-right {
+    position: absolute;
+    bottom: 55%;
+    left: 87%;
+  }
+
+
   .header {
     text-align: center;
     margin-top: 1%;
@@ -31,6 +57,7 @@
     padding:1%;
   }
 
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 .margin {
@@ -56,12 +83,25 @@
     blinkTextCursor 500ms steps(44) infinite normal;
 }
 
+.btn {
+  display: inline-block;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
     width: 40em;
+  }
+}
+
+.btnarrowright {
+  position: relative;
+
+  .joel {
+    position: absolute;
+    left: 80%;
   }
 }
 
