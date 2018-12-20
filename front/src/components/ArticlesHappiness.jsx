@@ -15,8 +15,26 @@ const Articles = () => {
                             </article>
                         </Col>
                         <Col lg='6' className='image-article'>
-                            <img src='/images/catastrophe1.jpg' alt='catastrophe' />
+                            <img className="art1" src='/images/iphone.jpg' alt='iphone' />
                             <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
+                        </Col>
+                        <Col lg='12' className="article-top">
+                            <article className='article-body'>
+                                <h3>Planète 0 déchet ! </h3>
+                                <img className="image-big" src='/images/plage.jpg' alt='plage propre' />
+                                <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
+                                <p>Depuis quelques années nous voyons notre planète évoluer. En effet, les déchets diminuent à grand pas, d’ici quelques mois, nous n’aurons plus aucun déchet, tout sera recyclable et réutilisable. Tous à vos poubelles !
+                                </p>
+                            </article>
+                        </Col>
+                        <Col lg='12' className="article-top">
+                            <article className='article-body'>
+                                <h3>La réparabilité enseignée dans les écoles </h3>
+                                <img className="image-big" src='/images/ecole.jpg' alt='plage propre' />
+                                <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
+                                <p>Depuis quelques années nous voyons notre planète évoluer. En effet, les déchets diminuent à grand pas, d’ici quelques mois, nous n’aurons plus aucun déchet, tout sera recyclable et réutilisable. Tous à vos poubelles !
+                                </p>
+                            </article>
                         </Col>
                     </Row>
                 </Col>
@@ -24,26 +42,39 @@ const Articles = () => {
                     <Row className='row-border'>
                         <Col lg='6'>
                             <article>
-                                <h3>Les dinosaures sont de retour ! </h3>
-                                <p>Après de nombreuses années sans nouvelle d’eux, certaines espèces dinosaures ont refait leur apparition depuis fin mars sur notre belle planète. Ne soyez donc pas surpris de voir un ptérodactyle voler au-dessus de votre tête. 
-                     </p>
+                                <h3>La consommation energitique mondiale a baissé de 20% en 3 ans </h3>
+                                <p>Après de nombreuses années sans nouvelle d’eux, certaines espèces dinosaures ont refait leur apparition depuis fin mars sur notre belle planète. Ne soyez donc pas surpris de voir un ptérodactyle voler au-dessus de votre tête.
+                                </p>
                             </article>
                         </Col>
                         <Col lg='6' className='image-article'>
-                            <img src='/images/deforestation.jpeg' alt='catastrophe' />
+                            <img src='/images/energie.png' alt='consommation energetique' />
                             <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
                         </Col>
                     </Row>
                     <Row>
                         <Col lg='6'>
                             <article>
-                                <h3>Planète 0 déchet ! </h3>
-                                <p>Depuis quelques années nous voyons notre planète évoluer. En effet, les déchets diminuent à grand pas, d’ici quelques mois, nous n’aurons plus aucun déchet, tout sera recyclable et réutilisable. Tous à vos poubelles ! 
-                     </p>
+                                <h3>Amazon plante des arbres à l'emplacement de ses datacenters </h3>
+                                <p>Après de nombreuses années sans nouvelle d’eux, certaines espèces dinosaures ont refait leur apparition depuis fin mars sur notre belle planète. Ne soyez donc pas surpris de voir un ptérodactyle voler au-dessus de votre tête.
+                                </p>
                             </article>
                         </Col>
-                        <Col lg='6' className='image-article'>
-                            <img src='/images/desert.jpg' alt='catastrophe' />
+                        <Col lg='6' className='image-article square'>
+                            <img src='/images/foret.jpeg' alt='reforestation' />
+                            <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
+                        </Col>
+                    </Row>
+                    <Row className="article-top">
+                        <Col lg='6'>
+                            <article>
+                                <h3>Les dinosaures sont de retour ! </h3>
+                                <p>Après de nombreuses années sans nouvelle d’eux, certaines espèces dinosaures ont refait leur apparition depuis fin mars sur notre belle planète. Ne soyez donc pas surpris de voir un ptérodactyle voler au-dessus de votre tête.
+                                </p>
+                            </article>
+                        </Col>
+                        <Col lg='6' className='square'>
+                            <img src='/images/ptero.jpg' alt='pterodactyl' />
                             <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
                         </Col>
                     </Row>
@@ -52,13 +83,13 @@ const Articles = () => {
             </Row>
             <Row>
                 <Col>
-                <img src='/images/continent.jpg' alt='catastrophe' className='image-article-bottom'/>
-                <article className='article-body'>
-                
-                            <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
-                                <h3>Les entreprises à 100% avec la planète ! </h3>
-                                <p>Tous les nouveaux outils de bilan carbone de projets numériques ont été de grande ampleur cette année. En effet, chaque entreprise s’est mise aux normes afin que leur bilan carbone soit positif. Résultat ? Toutes ont pu continuer leurs activités tout en respectant la planète.</p>
-                            </article>
+                    <img src='/images/entreprise.jpeg' alt='catastrophe' className='image-article-bottom' />
+                    <article className='article-body'>
+
+                        <p className='legend'>Cillum ea exercitation id officia ex occaecat dolore id non minim nisi pariatur ex. Qui proident id nisi eu.</p>
+                        <h3>Les entreprises à 100% avec la planète ! </h3>
+                        <p>Tous les nouveaux outils de bilan carbone de projets numériques ont été de grande ampleur cette année. En effet, chaque entreprise s’est mise aux normes afin que leur bilan carbone soit positif. Résultat ? Toutes ont pu continuer leurs activités tout en respectant la planète.</p>
+                    </article>
                 </Col>
             </Row>
         </Container>
