@@ -42,20 +42,20 @@ class FormSubmit extends Component {
       <Container>
         <Form onSubmit={this.newTips} className="form-tips">
           <FormGroup row>
-            <Label sm={2}>Nom</Label>
+            <Label className="label" sm={2}>Nom</Label>
             <Col sm={10}>
               <Input type="text" name="name" placeholder="Votre nom" value={name} onChange={this.changeInput}
               />
             </Col>
           </FormGroup>
           <FormGroup row>
-            <Label sm={2}>Date</Label>
+            <Label className="label" sm={2}>Date</Label>
             <Col sm={10}>
               <Input type="date" name="date" value={date} onChange={this.changeInput} />
             </Col>
           </FormGroup>
           <FormGroup row>
-            <Label sm={2}>Message</Label>
+            <Label className="label" sm={2}>Message</Label>
             <Col sm={10}>
               <Input type="textarea" name="message" placeholder="Votre tips" value={message} onChange={this.changeInput} />
             </Col>

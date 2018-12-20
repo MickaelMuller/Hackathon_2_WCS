@@ -7,28 +7,32 @@
 
   .card-title{
     opacity: 0;
+    font-family: 'Bebas Neue';
   }
 
   .card-text{
     opacity: 0;
+    font-family: 'Open Sans Condensed';
   }
 
   .card-sensib:hover {
       .card-title{
         opacity: 1;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+        text-shadow: 2px 1.5px rgba(0, 0, 0, 0.3);
       }
       .card-text{
         opacity: 1;
         transition: all 0.5s ease-in-out;
-        text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.3);
-        text-align: center;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
       }
       .card-image{
         filter: opacity(13%);
         -webkit-filter: opacity(13%);
       }
       background: #005995;
-      opacity: 0.95
+      opacity: 0.95;
     }
 }
 
