@@ -36,7 +36,9 @@ class Navbar extends Component {
             <img width="200px" src="/medias/weneedyou.jpg" alt="weneedyou"/>
           </ModalBody>
           <ModalFooter>
-            <Button color="success" onClick={this.toggle}><Link to='./sensibilisation' style={{color: 'white'}}>Nos solutions =></Link></Button>
+          <Link to='./sensibilisation' >
+            <Button color="success" onClick={this.toggle} style={{color: 'white'}}>Nos solutions =></Button>
+          </Link>
           </ModalFooter>
         </Modal>
       </Container>
