@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './components/home/Home';
 import Sensibilisation from './components/Sensibilisation';
 import FormTips from './components/FormTips'
+import Sensibilisation from './components/Sensibilisation.jsx'
 
 class App extends Component {
   render() {

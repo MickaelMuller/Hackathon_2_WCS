@@ -6,29 +6,17 @@ import MeteoWidget from './MeteoWidget'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import Footer from '../Footer';
 
-
-
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      modal: false
-    };
-    this.toggle = this.toggle.bind(this);
-
-  }
-
-  toggle() {
-    this.setState({
-      modal: !this.state.modal
-    });
+    this.state = { 
+     }
   }
 
   render() {
-    
     return (
       <div>
-        <Navbar />
+        <Navbar/>
         <Video />
         <MeteoWidget />
         <Button color="danger" onClick={this.toggle}>Click</Button>
