@@ -24,7 +24,7 @@ class Sensibilistation extends Component {
           <Row>
             {cardSensibPerso.map(bnt => (
               <Col lg="4">
-                <CardSensibilisation name={bnt.title} description={bnt.description} key={bnt.id} />
+                <CardSensibilisation image={bnt.image} name={bnt.title} description={bnt.description} key={bnt.id} />
               </Col>
             ))}
           </Row>
@@ -34,7 +34,7 @@ class Sensibilistation extends Component {
           <Row>
             {cardSensibPro.map(bnt => (
               <Col lg="4">
-                <CardSensibilisation name={bnt.title} description={bnt.description} key={bnt.id} />
+                <CardSensibilisation image={bnt.image} name={bnt.title} description={bnt.description} key={bnt.id} />
               </Col>
             ))}
           </Row>
