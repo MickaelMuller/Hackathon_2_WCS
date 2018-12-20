@@ -7,7 +7,7 @@ const Footer = () => {
         <Container>
             <hr/>
             <Row className='footer'>
-                <p>© 2018 The New York Times Company </p>
+                <p>© 2018 Le monde </p>
                 <p>Nous contacter</p>
                 <p>Plan du site</p>
                 <p>Aide</p>
