@@ -1,13 +1,22 @@
-.navbar.container-fluid{
+.Navbar {
+  .container-fluid{
     padding: 0;
     margin-bottom: -10px;
-}
+  }
 
-.red{
+  .nyt-navbar {
+    background-image: url("/images/navbar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 13em;
+  }
+
+  .red {
     background-color: red;
     color: white;
     font-size: 2%;
     font-weight: bolder;
-    width: 100%;
     justify-content: center;
+  }
+
 }

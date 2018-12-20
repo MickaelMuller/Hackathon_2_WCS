@@ -4,8 +4,8 @@ import './Navbar.scss';
 
 const Navbar = () => {
     return ( 
-        <Container fluid className='navbar'>
-            <img src='/images/navbar.png' alt='NewYork Times Header'/>
+        <Container fluid className='Navbar'>
+            <div className="nyt-navbar" />
             <Row className='red'>
                 <h3>FLASH INFO</h3>
             </Row>
