@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import Sensibilisation from './components/Sensibilisation.jsx';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        coucou
+        <Sensibilisation />
       </div>
     );
   }
