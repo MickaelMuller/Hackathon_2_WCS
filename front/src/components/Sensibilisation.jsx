@@ -52,7 +52,7 @@ class Sensibilistation extends Component {
           <FormTips />
         </Container>
         <p className="text-left">Retour au scénario <br />catastrophe(2025)</p>
-        <p className="text-right">Scénario sobriété (2025)</p>
+        <p className="text-right">Aller au scénario<br />sobriété (2025)</p>
         <Button className="joel-left" color="success"><Link style={{color:"white"}} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
         <Button className="joel" color="danger"><Link style={{color:"white"}} to="/happiness"><i className=" fa fa-arrow-circle-o-right fa-3x"></i></Link></Button>
     </div>
