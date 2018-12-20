@@ -28,7 +28,7 @@ class Navbar extends Component {
           <h3>FLASH INFO</h3>
         </Row>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Vous ne souhaitez pas en arriver là ?</ModalHeader>
+          <ModalHeader toggle={this.toggle} charCode="☠">Vous ne souhaitez pas en arriver là ?</ModalHeader>
           <ModalBody className="text">
             Vous voulez changer les choses ? Nous aussi ! 
             <br/>
