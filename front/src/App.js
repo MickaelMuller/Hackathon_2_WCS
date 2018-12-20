@@ -7,8 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Sensibilisation />
-      </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/sensibilisation" component={Sensibilisation} />
+        </Switch>
+        <Footer />      </div>
     );
   }
 }
