@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Longévité par les softwares ",
+    "description": "Saviez-vous que les appareils sont renouvelés tous les 18 mois en moyenne, alors que leur durée de vie technique est de 7 à 8 ans ? Pensez aux réparations et aux reconditionnements!",
+    "image":"https://images.pexels.com/photos/1476316/pexels-photo-1476316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+    "id": "2",
+    "title": "Possibilité d'éteindre les équipements",
+    "description": "Saviez-vous que les box internet consomment en un an, l'équivalent d’un réfrigérateur de 200 litres ? Pensez à paramétrer vos appareils numérique - Smart TV, smartphone, Box internet - qui ont la capacité de s'éteindre complètement.",
+    "image":"https://images.pexels.com/photos/1292296/pexels-photo-1292296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+    "id": "3",
+    "title": "Outils d'évaluation carbone",
+    "description": "Des outils existent pour la prise en compte du contenu carbone des équipements, des logiciels et des actions numériques exploités dans vos entreprises.",
+    "image":"https://images.pexels.com/photos/207483/pexels-photo-207483.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+  }
+]

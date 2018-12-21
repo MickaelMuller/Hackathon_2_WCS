@@ -1,0 +1,110 @@
+.MeteoWidget {
+  background-color: orangered; 
+  padding-left: 0!important;
+
+  .image-meteo{
+    max-height: 6rem;
+    padding: 10px;
+  }
+
+
+  // .defile {
+  //   animation: glissement 9s linear 1s infinite running;
+  //   font-size: 140%;
+  //   margin-top: 2.4%;
+  //   color:red;
+  //   width: 350px;
+  // }
+  
+  //   @keyframes glissement {
+  //     from {
+  //       margin-left: 100%;
+  //       width: 300%;
+  //     }   
+  //     to {
+  //       margin-left: -120%;
+  //       width: 300%;
+  //     }
+  //   }
+
+  .defileParent {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 700px;
+    margin-top: 1%;
+    color: white;  
+    font-size: 200%;
+    line-height: 200%;  
+  }
+  .defile {
+    display:block;
+    -webkit-animation:linear marqueelike 20s infinite ;
+    -moz-animation:linear marqueelike 20s infinite ;
+    -o-animation:linear marqueelike 20s infinite ;
+    -ms-animation:linear marqueelike 20s infinite ;
+    animation:linear marqueelike 20s infinite ;
+    margin-left:-100%;
+    padding:0 5px;
+    text-align:left;
+    height:0px;
+  }
+  
+  
+  .defile:after {
+    content:attr(data-text);
+    position:absolute;
+    white-space:nowrap;
+    padding-left:10px;
+  }
+  
+  @-webkit-keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-moz-keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-o-keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @-ms-keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  @keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+   }
+  
+  @media only screen and (max-width: 860px) {
+  .defileParent {
+    display: block;
+    margin: 3em auto;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .defile {
+    display:block;
+    -webkit-animation:linear marqueelike 15s infinite ;
+    -moz-animation:linear marqueelike 15s infinite ;
+    -o-animation:linear marqueelike 15s infinite ;
+    -ms-animation:linear marqueelike 15s infinite ;
+    animation:linear marqueelike 15s infinite ;
+    margin-left:-100%;
+    padding:0 5px;
+    text-align:left;
+    height:25px;
+  }
+  }
+}
+
+
+
+

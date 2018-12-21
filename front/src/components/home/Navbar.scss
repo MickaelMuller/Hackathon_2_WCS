@@ -1,0 +1,59 @@
+.Navbar {
+  .container-fluid{
+    padding: 0;
+    margin-bottom: -10px;
+  }
+
+  .nyt-navbar {
+    min-height: 18rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .red {
+    background-color: red;
+    color: white;
+    font-size: 2%;
+    font-weight: bolder;
+    justify-content: center;
+  }
+
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Nunito';
+}
+
+.modal-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Nunito';
+}
+
+.end-modal.btn.btn-secondary {
+  font-family: 'Nunito';
+  background-color: #1a2a66;
+}
+
+div.modal-header {
+  border: none;
+}
+
+div.gradient.modal-footer {
+  border: none;
+}
+
+div.modal-content {
+  background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+
+
+
+
