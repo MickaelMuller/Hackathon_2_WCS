@@ -75,11 +75,11 @@ const Articles = () => {
                 <hr />
             </Row>
             <Row>
-                <Col>
-                <img src='/medias/chat4(1).jpg' alt='catastrophe' className='image-article-bottom'/>
+                <Col className="papa-article-bottom">
+                <img src='/medias/chat.jpeg' alt='catastrophe' className='image-article-bottom'/>
                 <article className='article-body'>
                 
-                            <p className='legend'>Pauvre chatte en voie de disparition</p>
+                            <p className='legend papa-article-bottom'>Pauvre chatte en voie de disparition</p>
                                 <h3>Espèce en voie de disparition : LE CHAT </h3>
                                 <p>Du jamais vu sur cette planète, le chat est actuellement en voie de disparition due à la surconsommation de vos vidéos YouTube. Dites bonjour à la nouvelle Youtubeuse Lil Miquela, et dites au revoir à vos matous… (lire la suite)</p>
                             </article>

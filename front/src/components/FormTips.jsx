@@ -40,6 +40,8 @@ class FormTips extends Component {
         <hr />
         <br />
         <FormSubmit />
+        <br/>
+        <br/>
       </Container>
     );
   }
