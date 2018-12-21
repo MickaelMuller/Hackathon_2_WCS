@@ -11,7 +11,7 @@ const Articles = () => {
                         <Col lg='6'>
                             <article className='article-body'>
                                 <h3>APPLE se met au Green </h3>
-                                <p>En effet, Steve Jobs oblige désormais tous ses appareils à avoir une extinction obligatoire par jour. Ainsi lorsqu'ils se mettent en veillent automatiquement ils s'éteignent sans enlever les alarmes, réveils, les rappels etc.</p>
+                                <p>En effet, Tim Cook oblige désormais tous ses appareils à avoir une extinction obligatoire par jour. Ainsi lorsqu'ils se mettent en veillent automatiquement ils s'éteignent sans enlever les alarmes, réveils, les rappels etc.</p>
                             </article>
                         </Col>
                         <Col lg='6' className='image-article'>
