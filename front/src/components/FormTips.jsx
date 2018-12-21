@@ -27,6 +27,8 @@ class FormTips extends Component {
     const { tips } = this.state;
     return (
       <Container className="FormTips">
+      <hr />
+        <h2 className="titre-agit">La communauté agit : </h2>
         {
           tips.map(item => (
             <Breadcrumb>
