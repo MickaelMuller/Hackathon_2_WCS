@@ -22,7 +22,7 @@ class Sensibilistation extends Component {
     return (
       <div className="Sensibilisation">
         <div className="header">
-          <a target="_blank" href="https://theshiftproject.org/" title="The Shift Project">
+          <a target="_blank" rel="noopener noreferrer" href="https://theshiftproject.org/" title="The Shift Project">
             <img src="/medias/theshiftproject.png" alt="theshiftproject" className="margin" />
           </a>
           <div className="title-h1"><h1>Faisons de la transition numérique un atout pour l'environnement! </h1></div>

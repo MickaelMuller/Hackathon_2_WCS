@@ -85,8 +85,7 @@ const Articles = () => {
             <Col lg="6" className="image-article">
               <img src="/images/desert.jpg" alt="desert" />
               <p className="legend">
-                Cillum ea exercitation id officia ex occaecat dolore id non
-                minim nisi pariatur ex. Qui proident id nisi eu.
+                Une courbe ascendante depuis 1957
               </p>
             </Col>
           </Row>
@@ -95,18 +94,14 @@ const Articles = () => {
               <article>
                 <h3>Désastre : l'eau se fait de plus en plus rare</h3>
                 <p>
-                  Des températures de +45c° en moyenne sont constamment
-                  enregistrées sur notre planète terre suite à un excès de
-                  consommation de votre réseau 4G depuis de nombreuses années…
-                  (lire la suite)
+                En effet, tous les citoyens ne se contentent que d’une seule douche par semaine. Ainsi qu’une seule bouteille d’eau de 50cL par personne pour 48h. En revanche vous retrouverez votre Coca Cola préféré à volonté dans tous vos supermarchés. (Lire la suite)
                 </p>
               </article>
             </Col>
             <Col lg="6" className="image-article square">
               <img src="/images/mer.jpeg" alt="mer assechée" />
               <p className="legend">
-                Cillum ea exercitation id officia ex occaecat dolore id non
-                minim nisi pariatur ex. Qui proident id nisi eu.
+                La mer baltique disparaitra de la surface du globe en 2029
               </p>
             </Col>
           </Row>
@@ -115,18 +110,14 @@ const Articles = () => {
               <article>
                 <h3>Gouvernement : Nabila passe à la culture </h3>
                 <p>
-                  Des températures de +45c° en moyenne sont constamment
-                  enregistrées sur notre planète terre suite à un excès de
-                  consommation de votre réseau 4G depuis de nombreuses années…
-                  (lire la suite)
+                Suite à la récente démission de Franck Riester, ministre de la culture, c’est sans surprise que Nabilla Benattia le remplacera à partir de mercredi prochain. Par ailleurs, vous la retrouverez au Cultura Porte de la Valette pour une séance dédicace samedi prochain.   
                 </p>
               </article>
             </Col>
             <Col lg="6" className="square">
               <img src="/images/culture.jpg" alt="catastrophe" />
               <p className="legend">
-                Cillum ea exercitation id officia ex occaecat dolore id non
-                minim nisi pariatur ex. Qui proident id nisi eu.
+                Où comment Instagram et Youtube ont réussi à changer le visage de la politique française 
               </p>
             </Col>
           </Row>
