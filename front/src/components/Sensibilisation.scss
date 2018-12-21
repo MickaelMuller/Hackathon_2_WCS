@@ -4,6 +4,8 @@
   .title-h1{
     margin-bottom: 1%;
     padding-bottom:2%;
+    margin-top: 50px;
+    text-align: center;
     font-family: 'Nunito';
     color:rgb(40, 40, 40);
   }
@@ -32,10 +34,19 @@
     left: 66%;
   }
 
+  .maison-joel {
+    background-color: antiquewhite;
+  }
 
   .header {
     text-align: center;
     margin-top: 1%;
+    background-image: url("/medias/theshiftproject.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position-x: 5px;
   }
 
   .title-h2 {

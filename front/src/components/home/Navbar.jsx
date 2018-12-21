@@ -16,7 +16,7 @@ class Navbar extends Component {
       <Container fluid className='Navbar'>
         <img src="/images/navbar.png" alt="imagenavbar" className="nyt-navbar" onClick={this.toggle} />
         <Row className='red'>
-          <h3>FLASH INFO</h3>
+          <h3 className="flash-info"><strong>FLASH INFO</strong></h3>
         </Row>
       </Container>
     );

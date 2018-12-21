@@ -23,8 +23,9 @@ class Sensibilistation extends Component {
       <div className="Sensibilisation">
         <div className="header">
           <a target="_blank" rel="noopener noreferrer" href="https://theshiftproject.org/" title="The Shift Project">
-            <img src="/medias/theshiftproject.png" alt="theshiftproject" className="margin" />
           </a>
+        </div>
+        <div>
           <div className="title-h1"><h1>Faisons de la transition numérique un atout pour l'environnement! </h1></div>
           <p class="line-1 anim-typewriter">"C’est à condition d’accepter les limites de </p>
           <p class="line-1 anim2-typewriter2">ce monde qu’une politique salubre sera possible."</p>
@@ -54,15 +55,17 @@ class Sensibilistation extends Component {
           <br />
           <FormTips />
         </Container>
-        <p className="text-left"><strong>Retour au scénario <br />« catastrophe (2025) »</strong></p>
-        <p className="text-right"><strong>Aller au scénario<br /> « sobriété (2025) »</strong></p>
-        <Button className="joel-left" color="danger"><Link style={{color:"white"}} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
-        <Button className="joel" color="success"><Link style={{color:"white"}} to="/happiness"><i className=" fa fa-arrow-circle-o-right fa-3x"></i></Link></Button>
+        <div className="maison-joel">
+          
+        <p className="text-left"><strong>Scénario <br/>« catastrophe »</strong></p>
+        <p className="text-right"><strong>Scénario<br /> « sobriété »</strong></p>
+        <Button className="joel-left" color="danger"><Link style={{ color: "white" }} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
+        <Button className="joel" color="success"><Link style={{ color: "white" }} to="/happiness"><i className=" fa fa-arrow-circle-o-right fa-3x"></i></Link></Button>
+        </div>
+      </div>
+    );
+  }
+}
 
-    </div>
-        );
-      }
-    }
-    
 
 export default Sensibilistation;
