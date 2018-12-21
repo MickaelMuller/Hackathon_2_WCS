@@ -1,6 +1,13 @@
 .Sensibilisation {
   background-image: url("/medias/white_wall_hash.png");
   position: relative;
+  .title-h1{
+    margin-bottom: 1%;
+    padding-bottom:2%;
+    font-family: 'Nunito';
+    color:rgb(40, 40, 40);
+  }
+
   .joel {
     position: absolute;
     left:93%;
@@ -31,11 +38,6 @@
     margin-top: 1%;
   }
 
-  // @font-face {
-  //   font-family: 'typewritter';
-  //   src: url(typewriter.ttf) format('ttf');
-  // }
-
   .title-h2 {
     text-align: center;
     color: whitesmoke;
@@ -47,16 +49,6 @@
     font-family: 'Bebas Neue';
   }
   
-  .title-h22 {
-    text-align: center;
-    color: whitesmoke;
-    background-color: #005995;
-    border-radius: 3px;
-    margin-top: 4%;
-    margin-bottom: 2%;
-    padding:1%;
-    font-family: 'Bebas Neue';
-  }
 
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather');

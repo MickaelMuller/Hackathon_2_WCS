@@ -23,6 +23,7 @@ class Sensibilistation extends Component {
       <div className="Sensibilisation">
         <div className="header">
           <img src="/medias/theshiftproject.png" alt="theshiftproject" className="margin" />
+          <div className="title-h1"><h1>Faisons de la transition numérique un atout pour l'environnement! </h1></div>
           <p class="line-1 anim-typewriter">"C’est à condition d’accepter les limites de </p>
           <p class="line-1 anim2-typewriter2">ce monde qu’une politique salubre sera possible."</p>
           <p class="line-1 anim3-typewriter3 textsize">Matthieu Auzanneau (Directeur de The Shift Project)</p>
@@ -39,7 +40,7 @@ class Sensibilistation extends Component {
             </Row>
           </div>
           <div className="solutionsPro">
-            <h2 className="title-h22">Solutions des professionnels</h2>
+            <h2 className="title-h2">Solutions des professionnels</h2>
             <Row>
               {cardSensibPro.map(bnt => (
                 <Col lg="4">
@@ -53,11 +54,11 @@ class Sensibilistation extends Component {
         </Container>
         <p className="text-left">Retour au scénario <br />catastrophe(2025)</p>
         <p className="text-right">Aller au scénario<br />sobriété (2025)</p>
-        <Button className="joel-left" color="success"><Link style={{color:"white"}} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
-        <Button className="joel" color="danger"><Link style={{color:"white"}} to="/happiness"><i className=" fa fa-arrow-circle-o-right fa-3x"></i></Link></Button>
-    </div>
-        );
-      }
-    }
-    
+        <Button className="joel-left" color="success"><Link style={{ color: "white" }} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
+        <Button className="joel" color="danger"><Link style={{ color: "white" }} to="/happiness"><i className=" fa fa-arrow-circle-o-right fa-3x"></i></Link></Button>
+      </div>
+    );
+  }
+}
+
 export default Sensibilistation;
