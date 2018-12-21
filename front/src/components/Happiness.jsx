@@ -4,6 +4,7 @@ import Navbar from './home/Navbar';
 import ArticlesHappiness from './ArticlesHappiness';
 import Footer from './Footer';
 import VideoHapsiness from './VideoHappiness';
+import MeteoGreen from './home/MeteoGreen';
 
 
 
@@ -13,6 +14,7 @@ class Happiness extends Component {
             <div>
                 <Navbar />
                 <VideoHapsiness />
+                <MeteoGreen />
                 <ArticlesHappiness />
                 <Footer />
             </div>
