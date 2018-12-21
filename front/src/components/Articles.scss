@@ -1,8 +1,9 @@
 .Articles.container{
-padding-left:30;
-font-size: 18px;
-font-family: 'Open Sans Condensed';
-font-size: 20px;
+    margin-top:10px;
+    padding-left:30;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
 
     h3{
         padding: 10px;
@@ -38,8 +39,12 @@ font-size: 20px;
         border-bottom: solid rgb(92, 89, 89) 1px;
     }
 
+    .papa-article-bottom {
+      text-align: center;
+    }
+
     .image-article-bottom {
-      height: 60%;
+      width: 80%;
     }
 
     .art1 {
