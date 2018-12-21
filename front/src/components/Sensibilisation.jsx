@@ -26,7 +26,7 @@ class Sensibilistation extends Component {
           </a>
         </div>
         <div>
-          <div className="title-h1"><h1>Faisons de la transition numérique un atout pour l'environnement! </h1></div>
+          <div className="title-h1"><h1>Faisons de la transition numérique un atout pour l'environnement ! </h1></div>
           <p class="line-1 anim-typewriter">"C’est à condition d’accepter les limites de </p>
           <p class="line-1 anim2-typewriter2">ce monde qu’une politique salubre sera possible."</p>
           <p class="line-1 anim3-typewriter3 textsize">Matthieu Auzanneau (Directeur de The Shift Project)</p>
