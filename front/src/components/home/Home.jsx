@@ -38,9 +38,9 @@ class Home extends Component {
             Vous voulez changer les choses ? Nous aussi ! 
             <br/>
             <br/>
-            <img width="200px" src="/medias/weneedyou.jpg" alt="weneedyou"/>
+            <img width="200px" src="/medias/weneedyou.png" alt="weneedyou"/>
           </ModalBody>
-          <ModalFooter>
+          <ModalFooter className="gradient">
           <Link to='./sensibilisation' >
             <Button className="end-modal" onClick={this.toggle} style={{color: 'white'}}>Nos solutions =></Button>
           </Link>
