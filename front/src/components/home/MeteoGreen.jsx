@@ -9,16 +9,16 @@ class MeteoGreen extends Component {
   }
   render() {
     return (
-      <Container fluid className="MeteoWidget">
+      <Container fluid className="MeteoGreen">
         <Row>
           <Col lg='2'>
             <img className='image-meteo' src='/images/MeteoGreen.png' alt='carte temperatures et meteo' />
           </Col>
           <Col className="defileParent">
             <p  className="defile" data-text="METEO [LIVE] :
-              Les scientifiques nous informent que les oiseaux sont de retour en ville !">
+              La température à la surface du globe a commencé à diminuer  !">
               METEO [LIVE] :
-              Les scientifiques nous informent que les oiseaux sont de retour en ville !
+              La température à la surface du globe a commencé à diminuer !
             </p>
           </Col>
         </Row>
