@@ -134,14 +134,16 @@ const Articles = () => {
         <hr />
       </Row>
       <Row>
-        <Col>
+        <Col className="papa-article-bottom">
           <img
-            src="/medias/chat4(1).jpg"
+            src="/medias/chat.jpeg"
             alt="catastrophe"
             className="image-article-bottom"
           />
           <article className="article-body">
-            <p className="legend">Pauvre chatte en voie de disparition</p>
+            <p className="legend papa-article-bottom">
+              Pauvre chatte en voie de disparition
+            </p>
             <h3>Espèce en voie de disparition : LE CHAT </h3>
             <p>
               Du jamais vu sur cette planète, le chat est actuellement en voie
