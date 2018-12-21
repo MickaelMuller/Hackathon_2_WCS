@@ -40,6 +40,7 @@ class FormSubmit extends Component {
     const { name, date, message } = this.state;
     return (
       <Container>
+      <h2 className="titre-h1">Partager votre bonne action avec la communauté : </h2>
         <Form onSubmit={this.newTips} className="form-tips">
           <FormGroup row>
             <Label className="label" sm={2}>Nom</Label>

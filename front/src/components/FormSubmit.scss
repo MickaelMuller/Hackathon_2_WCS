@@ -1,8 +1,18 @@
 .FormTips {
-  padding-bottom:9%;
+  padding-bottom:15%;
   .form-tips {
     position: relative;
     font-family: 'Open Sans Condensed';
+  }
+
+  .titre-h1 {
+    font-family: 'Nunito';
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .label {
+    font-size: 1.3em;
   }
 
   .btn-tips {
