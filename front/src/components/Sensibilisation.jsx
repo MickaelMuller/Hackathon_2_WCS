@@ -22,7 +22,9 @@ class Sensibilistation extends Component {
     return (
       <div className="Sensibilisation">
         <div className="header">
-          <img src="/medias/theshiftproject.png" alt="theshiftproject" className="margin" />
+          <a target="_blank" href="https://theshiftproject.org/" title="The Shift Project">
+            <img src="/medias/theshiftproject.png" alt="theshiftproject" className="margin" />
+          </a>
           <p class="line-1 anim-typewriter">"C’est à condition d’accepter les limites de </p>
           <p class="line-1 anim2-typewriter2">ce monde qu’une politique salubre sera possible."</p>
           <p class="line-1 anim3-typewriter3 textsize">Matthieu Auzanneau (Directeur de The Shift Project)</p>
@@ -51,6 +53,7 @@ class Sensibilistation extends Component {
           <br />
           <FormTips />
         </Container>
+
         <p className="text-left"><strong>Retour au scénario <br />« catastrophe (2025) »</strong></p>
         <p className="text-right"><strong>Aller au scénario<br /> « sobriété (2025) »</strong></p>
         <Button className="joel-left" color="danger"><Link style={{color:"white"}} to="/"><i className=" fa fa-arrow-circle-o-left fa-3x"></i></Link></Button>
@@ -61,4 +64,5 @@ class Sensibilistation extends Component {
       }
     }
     
+
 export default Sensibilistation;
