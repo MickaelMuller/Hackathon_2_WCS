@@ -92,7 +92,7 @@ const Articles = () => {
           <Row>
             <Col lg="6">
               <article>
-                <h3>Désastre : l'eau se fait de plus en plus rare</h3>
+                <h3>Désastre: l'eau se fait de plus en plus rare</h3>
                 <p>
                 En effet, tous les citoyens ne se contentent que d’une seule douche par semaine. Ainsi qu’une seule bouteille d’eau de 50cL par personne pour 48h. En revanche vous retrouverez votre Coca Cola préféré à volonté dans tous vos supermarchés. (Lire la suite)
                 </p>
@@ -108,7 +108,7 @@ const Articles = () => {
           <Row className="article-top">
             <Col lg="6">
               <article>
-                <h3>Gouvernement : Nabila passe à la culture </h3>
+                <h3>Gouvernement: Nabila passe à la culture </h3>
                 <p>
                 Suite à la récente démission de Franck Riester, ministre de la culture, c’est sans surprise que Nabilla Benattia le remplacera à partir de mercredi prochain. Par ailleurs, vous la retrouverez au Cultura Porte de la Valette pour une séance dédicace samedi prochain.   
                 </p>
